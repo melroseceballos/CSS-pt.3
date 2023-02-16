@@ -1,0 +1,95 @@
+/* OVERRIDE BROWSER DEFAULTS */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+/* PAGE NAME STYLES */
+h1 {
+    margin: calc(50vh - 150px) auto 0 auto;
+    text-align: center;
+    width: fit-content;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* NAV BAR STYLES */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 0.5rem;
+}
+
+a:hover {
+    transform: scale(1.15);
+    color: rgb(182, 165, 253);
+}
+
+
+/* ADD ANIMATION PROPERTY HERE */
+#fade-in {
+    background-color: cadetblue;
+    animation: fade-in 2s linear both;
+}
+
+#left-slide {
+    background-color: thistle;
+}
+
+#right-slide {
+    background-color: mediumslateblue;
+}
+
+#top-slide {
+    background-color: slategrey;
+}
+
+#bottom-slide {
+    background-color: darkseagreen;
+}
+
+#diagonal-slide {
+    background-color: bisque;
+}
+
+#fade-diagonal-slide {
+    background-color: palevioletred;
+}
+
+#grow {
+    background-color: mediumaquamarine;
+}
+
+
+/* BUILD KEYFRAMES HERE */
+@keyframes fade-in {
+    from {
+        background-color: black;
+        opacity: 0;
+    }
+
+    to {
+        background-color: cadetblue;
+        opacity: 1;
+    }
+}
