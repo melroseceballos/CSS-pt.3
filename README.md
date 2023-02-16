@@ -22,10 +22,10 @@ This site provides a nice menu that takes you through some more simple page tran
 
 
 ## Your Task
-- You've bene given the start code to a website with 8 unique HTML pages that all have the same nav bar and stylesheet
+- You've bene given the starter code to a website with 8 unique HTML pages that all have the same `<nav>` bar and stylesheet
 - Each page's `<body>` element has a unqiue id, indicative of the animation you will build
-- Using the CSS file `styles/main.css` create animations for each `<body>` element that will run when that page is loaded
-- The first one has been done for you.
+- Using the CSS file (`styles/main.css`) create animations for each page's `<body>` element - the aniamtions should run when the page is loaded
+- The first page transition has been done for you
 
 
 ## Explanation of Animation Names
