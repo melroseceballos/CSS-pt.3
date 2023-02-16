@@ -3,7 +3,7 @@
 
 
 ## Context
-Animations on a website can elevate the user experience and demonstrate your prowess as a developer. Landing pages for a development/tech company and developer protfolios often showcase various types of animations on a scroll, click, or hover. Frequently, such sites will also execute an animation when the user navigates to a new page. Such an animation is called a page transition.
+Animations on a website can elevate the user experience and demonstrate your prowess as a developer. Landing pages for a development/tech company and developer portfolios often showcase various types of animations on a scroll, click, or hover. Frequently, such sites will also execute an animation when the user navigates to a new page. Such an animation is called a page transition.
 
 ### Examples
 Below are a few examples of advanced page transitions:
