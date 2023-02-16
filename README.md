@@ -1,4 +1,4 @@
-# Page Animations
+# Page Transitions Using CSS Animations
 <p align="center"><img src="banner.png"></p>
 
 
