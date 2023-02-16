@@ -17,7 +17,7 @@ This site provides a nice menu that takes you through some more simple page tran
 
 ## Set Up
 - Fork and clone this repository
-- Open` DLVR-Page-Animations/transition-site` in VS Code
+- Open `DLVR-Page-Animations/transition-site` in VS Code
 - Open any of the HTML files in the browser using Live Server 
 
 
