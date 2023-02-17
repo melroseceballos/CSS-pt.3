@@ -54,30 +54,37 @@ a:hover {
 
 #left-slide {
     background-color: thistle;
+    animation: slide-left 3s ease-in;
 }
 
 #right-slide {
     background-color: mediumslateblue;
+    animation: slide-right 3s ease-in;
 }
 
 #top-slide {
     background-color: slategrey;
+    animation: top-slide 3s ease-in;
 }
 
 #bottom-slide {
     background-color: darkseagreen;
+    animation: bottom-slide 3s ease-in;
 }
 
 #diagonal-slide {
     background-color: bisque;
+    animation: diagonal-slide 2s ease-in;
 }
 
 #fade-diagonal-slide {
     background-color: palevioletred;
+    animation: diagonal-fade-in 3s linear both;
 }
 
 #grow {
     background-color: mediumaquamarine;
+    animation: grow 3s ease-in;
 }
 
 
@@ -93,3 +100,61 @@ a:hover {
         opacity: 1;
     }
 }
+@keyframes slide-left{
+    from{
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-right{
+    from{
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@keyframes top-slide{
+    from{
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+@keyframes bottom-slide {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+@keyframes diagonal-slide{
+    from {
+        transform: translateX(100%) translateY(-100%);
+    }
+    to {
+        transform: translateX(0%) translateY(-0%)
+    }
+}
+@keyframes diagonal-fade-in{
+    from{
+        transform: translateX(100%) translateY(-100%);
+        background-color: black;
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%) translateY(-0%);
+        background-color: palevioletred;
+        opacity: 1;
+    }
+}
+@keyframes grow {
+    from { transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
